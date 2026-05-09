@@ -28,7 +28,11 @@ export default function Footer() {
           <h4 className="font-bold text-white mb-3">Contacto</h4>
           <ul className="space-y-2">
             <li>contacto@mr10.cl</li>
-            <li>WhatsApp +56 9 0000 0000</li>
+            <li>
+              <a href="https://wa.me/56996323790" target="_blank" rel="noreferrer" className="hover:text-red-400">
+                WhatsApp +56 9 9632 3790
+              </a>
+            </li>
             <li>Santiago, Chile</li>
           </ul>
         </div>

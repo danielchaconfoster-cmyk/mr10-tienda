@@ -18,8 +18,10 @@ export const products: Product[] = [
     team: "Selección de Brasil",
     year: "1970",
     price: 35990,
-    description: "La camiseta amarilla más icónica del fútbol mundial. La de Pelé, Jairzinho y Carlos Alberto en el Mundial de México 70.",
-    story: "Brasil ganó su tercer título mundial vistiendo este modelo que cambió la estética del fútbol para siempre. Considerada por la FIFA como la mejor selección de la historia.",
+    description:
+      "La camiseta amarilla más icónica del fútbol mundial. Cuello en V verde, escudo bordado de la CBD y el inolvidable amarillo canarinho que dio la vuelta al mundo en el Mundial de México 70. Réplica retro confeccionada en poliéster vintage de alta densidad.",
+    story:
+      "Brasil ganó su tercer título mundial vistiendo este modelo y se quedó con la Copa Jules Rimet de forma definitiva. El equipo de Pelé, Jairzinho, Tostão, Rivelino y Carlos Alberto es considerado por la FIFA como la mejor selección de la historia. Su gol final ante Italia en el Estadio Azteca todavía se estudia como una de las jugadas más perfectas jamás vistas.",
     image: "/products/brasil-1970.svg",
     category: "selecciones",
     badge: "TIER S",
@@ -27,11 +29,13 @@ export const products: Product[] = [
   {
     slug: "argentina-1986",
     name: "Argentina 1986",
-    team: "Selección de Argentina",
+    team: "Selección Argentina",
     year: "1986",
     price: 37990,
-    description: "La camiseta de Maradona en México 86. La 'Mano de Dios' y el 'Gol del Siglo' en una sola pieza de historia.",
-    story: "Diego Armando Maradona elevó esta camiseta a categoría de mito tras el partido ante Inglaterra. Argentina campeón del mundo.",
+    description:
+      "Camiseta titular de la consagración mundialista en México 86. Bastones celestes y blancos clásicos, cuello redondo y el escudo de la AFA. Inspirada en el modelo Le Coq Sportif original que vistió Maradona.",
+    story:
+      "Diego Armando Maradona elevó esta camiseta a categoría de mito tras los dos goles ante Inglaterra: la 'Mano de Dios' y el 'Gol del Siglo'. Argentina se coronó campeona del mundo derrotando a Alemania 3-2 en la final. La tela y el corte de esta tricota son exactamente los mismos que se usaron en el calor mexicano.",
     image: "/products/argentina-1986.svg",
     category: "selecciones",
     badge: "TIER S",
@@ -42,8 +46,10 @@ export const products: Product[] = [
     team: "La Roja",
     year: "1998",
     price: 32990,
-    description: "La camiseta de la generación dorada. Salas, Zamorano, el regreso a un mundial después de 16 años.",
-    story: "Francia 98 marcó a una generación entera de chilenos. La 'Ro-Sa' (Zamorano-Salas) hizo historia con esta tricota.",
+    description:
+      "La camiseta del regreso de Chile a un mundial después de 16 años. Roja intensa con detalles azules y blancos en el cuello y los puños. Escudo bordado de la ANFP. La que vistió la 'Ro-Sa' en Francia 98.",
+    story:
+      "Marcelo Salas y Iván Zamorano formaron una de las duplas ofensivas más recordadas del continente. Chile clasificó a octavos tras empatar con Italia 2-2 (con doblete de Salas) y caer ante Brasil. Esta camiseta es el símbolo de una generación dorada que devolvió la ilusión al fútbol chileno.",
     image: "/products/chile-1998.svg",
     category: "chile",
     badge: "TIER S",
@@ -54,8 +60,10 @@ export const products: Product[] = [
     team: "Países Bajos",
     year: "1988",
     price: 34990,
-    description: "La 'Naranja Mecánica' campeona de Europa. El diseño de Adidas que se volvió leyenda.",
-    story: "Van Basten, Gullit y Rijkaard llevaron a Holanda a su única gran corona internacional. Diseño icónico de los 80s.",
+    description:
+      "La 'Naranja Mecánica' campeona de Europa. Diseño geométrico Adidas con triángulos angulares en el pecho, naranja brillante y cuello negro. Una de las piezas más buscadas del coleccionismo mundial.",
+    story:
+      "Marco van Basten, Ruud Gullit y Frank Rijkaard llevaron a Holanda a su única gran corona internacional en la Eurocopa de Alemania 88. La final ante la URSS quedó en la historia por la volea imposible de Van Basten desde un ángulo cerradísimo. El diseño de esta camiseta marcó toda una era estética del fútbol europeo.",
     image: "/products/holanda-1988.svg",
     category: "selecciones",
     badge: "TIER S",
@@ -66,8 +74,10 @@ export const products: Product[] = [
     team: "Selección de Francia",
     year: "1998",
     price: 35990,
-    description: "Los Bleus campeones del mundo en casa. Zidane, Thuram, la generación que cambió Francia.",
-    story: "El primer título mundial francés. Una camiseta que simboliza la unidad de un país a través del fútbol.",
+    description:
+      "Los Bleus campeones del mundo en casa. Azul real con detalles tricolor en cuello y mangas, gallo bordado y escudo de la FFF. Diseño Adidas que marcó toda una época.",
+    story:
+      "El primer título mundial francés. Zinedine Zidane firmó dos goles de cabeza en la final ante Brasil (3-0) en el Stade de France. Lilian Thuram, Marcel Desailly, Patrick Vieira, Didier Deschamps. Una camiseta que simboliza la unidad de un país a través del fútbol.",
     image: "/products/francia-1998.svg",
     category: "selecciones",
     badge: "TIER A",
@@ -78,8 +88,10 @@ export const products: Product[] = [
     team: "La Azzurra",
     year: "1990",
     price: 33990,
-    description: "Italia 90: 'Notti Magiche'. Schillaci, el llanto de Maradona y el azul más bello del fútbol.",
-    story: "El mundial en casa para Italia. Aunque cayeron en semifinales, esta camiseta quedó grabada en la historia.",
+    description:
+      "Italia 90: 'Notti Magiche'. Azul Savoia profundo, cuello redondo blanco con detalle tricolor y escudo de la FIGC bordado. La camiseta del mundial italiano confeccionada por Diadora.",
+    story:
+      "El mundial en casa para Italia. Salvatore 'Totò' Schillaci se convirtió en la sensación con sus seis goles, ganando el Botín de Oro. Aunque la Azzurra cayó en semifinales ante Argentina por penales (con la lágrima eterna de Maradona), esta camiseta quedó grabada como una de las más bellas de la historia.",
     image: "/products/italia-1990.svg",
     category: "selecciones",
     badge: "TIER A",
@@ -90,8 +102,10 @@ export const products: Product[] = [
     team: "Die Mannschaft",
     year: "1990",
     price: 33990,
-    description: "El diseño más icónico de la historia. Las franjas tricolor que definieron una década entera.",
-    story: "Alemania campeona del mundo en Italia 90 con Matthäus, Klinsmann y Brehme. El diseño más reconocible de los 90s.",
+    description:
+      "El diseño Adidas más icónico de la historia. Camiseta blanca con las franjas en zigzag negro, rojo y dorado cruzando el pecho. Un statement visual que definió toda una década.",
+    story:
+      "Alemania campeona del mundo en Italia 90 venciendo a Argentina 1-0 con gol de penal de Andreas Brehme. Lothar Matthäus, Jürgen Klinsmann, Rudi Völler. Esta tricota se convirtió en pieza de culto: tan icónica que Adidas la ha relanzado múltiples veces como edición limitada.",
     image: "/products/alemania-1990.svg",
     category: "selecciones",
     badge: "TIER A",
@@ -102,8 +116,10 @@ export const products: Product[] = [
     team: "Associazione Calcio Milan",
     year: "1989-1990",
     price: 36990,
-    description: "El Milan de Sacchi. Van Basten, Gullit, Rijkaard. El equipo más dominante de fines de los 80s.",
-    story: "Bicampeón consecutivo de la Copa de Europa. Considerados por muchos como el mejor equipo de clubes de la historia.",
+    description:
+      "Bastones rossoneri clásicos con cuello negro en V y publicidad Mediolanum. La camiseta del Milan más dominante de fines de los 80s y comienzos de los 90s.",
+    story:
+      "Bajo Arrigo Sacchi y luego Fabio Capello, este Milan ganó dos Copas de Europa consecutivas (1989 y 1990) y dos Mundiales de Clubes. Marco van Basten, Ruud Gullit, Frank Rijkaard, Franco Baresi y Paolo Maldini. Considerados por muchos como el mejor equipo de clubes de la historia.",
     image: "/products/milan-1990.svg",
     category: "clubes",
     badge: "TIER A",
@@ -114,8 +130,10 @@ export const products: Product[] = [
     team: "Club Social y Deportivo Colo-Colo",
     year: "1991",
     price: 36990,
-    description: "El Cacique campeón de la Copa Libertadores. Único equipo chileno en lograrlo.",
-    story: "Bajo la dirección de Mirko Jozić, Colo-Colo conquistó América. Una hazaña histórica del fútbol chileno.",
+    description:
+      "La camiseta blanca del Cacique campeón de la Copa Libertadores de América. Cuello redondo negro, escudo bordado y publicidad Marlboro original. Pieza histórica del fútbol chileno.",
+    story:
+      "Bajo la dirección del croata Mirko Jozić, Colo-Colo conquistó América venciendo a Olimpia de Paraguay en la final. Único equipo chileno en alzar la Libertadores. Una hazaña histórica con jugadores como Daniel Morón, Javier Margas, Lizardo Garrido, Jaime Pizarro y Marcelo Barticciotto.",
     image: "/products/colo-colo-1991.svg",
     category: "chile",
     badge: "TIER S",
@@ -126,8 +144,10 @@ export const products: Product[] = [
     team: "Universidad de Chile",
     year: "1994",
     price: 34990,
-    description: "El año del bicampeonato azul tras 25 años de sequía. Marcelo Salas, Sandrino Castec, gloria pura.",
-    story: "La 'U' rompió la maldición de un cuarto de siglo sin títulos. Esta camiseta es el símbolo del renacer azul.",
+    description:
+      "Azul intenso con cuello blanco en V y escudo del 'Romántico Viajero' bordado. La camiseta del fin de la sequía. Edición homenaje a la generación del bicampeonato.",
+    story:
+      "La 'U' rompió la maldición de 25 años sin títulos al ganar el Campeonato Nacional 1994 (y luego 1995, en bicampeonato). Marcelo Salas, Sandrino Castec, Cristián Castañeda, Patricio Mardones. Esta camiseta es el símbolo del renacer azul y de una generación que volvió a ilusionar a todo un país.",
     image: "/products/u-de-chile-1994.svg",
     category: "chile",
     badge: "TIER A",
@@ -138,8 +158,10 @@ export const products: Product[] = [
     team: "Super Eagles",
     year: "1994",
     price: 32990,
-    description: "El diseño más bello del fútbol africano. Las Super Águilas que enamoraron al mundo en USA 94.",
-    story: "Nigeria sorprendió en su primer mundial. Yekini, Amokachi, Amunike. Una camiseta de coleccionista absoluto.",
+    description:
+      "Verde brillante con detalles blancos en hombros y cuello, escudo del águila bordado. El diseño africano más bello de los 90s, confeccionado por Adidas para USA 94.",
+    story:
+      "Nigeria sorprendió al mundo en su primera Copa del Mundo: ganó su grupo y eliminó por sorteo a la favorita Argentina. Solo cayó en octavos ante Italia con gol agónico de Roberto Baggio. Rashidi Yekini, Daniel Amokachi, Emmanuel Amunike, Sunday Oliseh. Camiseta de coleccionista absoluto.",
     image: "/products/nigeria-1994.svg",
     category: "selecciones",
     badge: "TIER A",
@@ -150,8 +172,10 @@ export const products: Product[] = [
     team: "Club Atlético Boca Juniors",
     year: "2000",
     price: 35990,
-    description: "El Boca de Bianchi. Riquelme en su esplendor, Palermo, Battaglia. Campeones del mundo.",
-    story: "Boca venció al Real Madrid 2-1 en la final intercontinental de Tokio. Consagración del proyecto más ganador.",
+    description:
+      "Azul y oro clásicos del Xeneize, con franja amarilla horizontal en el pecho, cuello redondo y publicidad Quilmes. Confeccionada por Nike para la temporada de la consagración intercontinental.",
+    story:
+      "El Boca de Carlos Bianchi venció al Real Madrid 2-1 en la final intercontinental de Tokio con dos goles de Martín Palermo. Juan Román Riquelme en su esplendor, asistiendo a un Palermo histórico. Walter Samuel, Sebastián Battaglia, Antonio Barijho. Consagración del proyecto más ganador de la historia reciente.",
     image: "/products/boca-2000.svg",
     category: "clubes",
     badge: "TIER A",
@@ -159,4 +183,5 @@ export const products: Product[] = [
 ];
 
 export const getProduct = (slug: string) => products.find((p) => p.slug === slug);
-export const getByCategory = (cat: Product["category"]) => products.filter((p) => p.category === cat);
+export const getByCategory = (cat: Product["category"]) =>
+  products.filter((p) => p.category === cat);
