@@ -14,10 +14,15 @@ export const metadata: Metadata = {
   title: "MR10 — Camisetas Retro de Fútbol",
   description:
     "Camisetas retro y vintage de fútbol. Selecciones, clubes y la historia del fútbol chileno e internacional para vestir.",
+  icons: {
+    icon: "/logo.jpg",
+    apple: "/logo.jpg",
+  },
   openGraph: {
     title: "MR10 — Camisetas Retro de Fútbol",
     description: "Historia para vestir. Camisetas retro de selecciones y clubes.",
     type: "website",
+    images: ["/logo.jpg"],
   },
 };
 

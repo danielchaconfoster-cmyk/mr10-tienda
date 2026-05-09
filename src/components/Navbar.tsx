@@ -1,5 +1,6 @@
 "use client";
 import Link from "next/link";
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useCart } from "@/lib/cart";
 import { SITE, waLink } from "@/lib/config";
@@ -14,11 +15,16 @@ export default function Navbar() {
       className="sticky top-0 z-30 backdrop-blur bg-black/80 border-b border-white/10"
     >
       <nav className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between text-white">
-        <Link href="/" className="flex items-center gap-2">
-          <span className="text-2xl font-black tracking-tighter">
-            MR<span className="text-red-500">10</span>
-          </span>
-          <span className="text-xs opacity-70 hidden sm:block uppercase tracking-widest">
+        <Link href="/" className="flex items-center gap-3">
+          <Image
+            src="/logo.jpg"
+            alt="MR10 Camisetas"
+            width={44}
+            height={44}
+            priority
+            className="rounded-full ring-2 ring-yellow-500/40"
+          />
+          <span className="text-xs opacity-70 hidden sm:block uppercase tracking-widest font-bold">
             Camisetas Retro
           </span>
         </Link>

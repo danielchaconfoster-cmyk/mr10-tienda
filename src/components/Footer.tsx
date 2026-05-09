@@ -1,12 +1,18 @@
+import Image from "next/image";
+
 export default function Footer() {
   return (
     <footer className="bg-black border-t border-white/10 text-white/80 mt-20">
       <div className="max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8 text-sm">
         <div>
-          <h3 className="text-white font-black text-lg tracking-tight">
-            MR<span className="text-red-500">10</span>
-          </h3>
-          <p className="mt-2 text-white/60">Camisetas retro y vintage de fútbol. Historia para vestir.</p>
+          <Image
+            src="/logo.jpg"
+            alt="MR10 Camisetas"
+            width={88}
+            height={88}
+            className="rounded-full ring-2 ring-yellow-500/40"
+          />
+          <p className="mt-3 text-white/60">Camisetas retro y vintage de fútbol. Historia para vestir.</p>
         </div>
         <div>
           <h4 className="font-bold text-white mb-3">Catálogo</h4>
