@@ -7,6 +7,7 @@ export type Product = {
   description: string;
   story: string;
   image: string;
+  video?: string;
   category: "selecciones" | "clubes" | "chile";
   badge?: "TIER S" | "TIER A" | "TIER B" | "ÚLTIMAS UNIDADES";
 };
@@ -51,6 +52,7 @@ export const products: Product[] = [
     story:
       "Marcelo Salas y Iván Zamorano formaron una de las duplas ofensivas más recordadas del continente. Chile clasificó a octavos tras empatar con Italia 2-2 (con doblete de Salas) y caer ante Brasil. Esta camiseta es el símbolo de una generación dorada que devolvió la ilusión al fútbol chileno.",
     image: "/products/chile-1998.svg",
+    video: "/products/chile-1998.mp4",
     category: "chile",
     badge: "TIER S",
   },

@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProduct, products } from "@/lib/products";
-import JerseyMock, { jerseyPalette } from "@/components/JerseyMock";
+import ProductMedia from "@/components/ProductMedia";
 import ProductCard from "@/components/ProductCard";
 import AddToCart from "@/components/AddToCart";
 import type { Metadata } from "next";
@@ -33,7 +33,6 @@ export default async function ProductPage({
   const product = getProduct(slug);
   if (!product) notFound();
 
-  const palette = jerseyPalette[product.slug] ?? { primary: "#888888" };
   const related = products.filter((p) => p.slug !== product.slug && p.category === product.category).slice(0, 4);
 
   return (
@@ -48,7 +47,7 @@ export default async function ProductPage({
 
       <div className="grid md:grid-cols-2 gap-8 md:gap-12">
         <div className="bg-neutral-100 rounded-2xl overflow-hidden aspect-square relative">
-          <JerseyMock {...palette} className="w-full h-full" />
+          <ProductMedia product={product} className="w-full h-full object-cover" />
           {product.badge && (
             <span className="absolute top-4 left-4 bg-red-600 text-white text-xs font-black tracking-widest px-3 py-1.5 rounded">
               {product.badge}

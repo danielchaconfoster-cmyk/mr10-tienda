@@ -2,10 +2,9 @@
 import Link from "next/link";
 import { motion } from "framer-motion";
 import { Product } from "@/lib/products";
-import JerseyMock, { jerseyPalette } from "./JerseyMock";
+import ProductMedia from "./ProductMedia";
 
 export default function ProductCard({ product, index = 0 }: { product: Product; index?: number }) {
-  const palette = jerseyPalette[product.slug] ?? { primary: "#888888" };
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -18,7 +17,7 @@ export default function ProductCard({ product, index = 0 }: { product: Product; 
       <Link href={`/producto/${product.slug}`}>
         <div className="relative bg-neutral-100 aspect-square overflow-hidden">
           <div className="absolute inset-0 transition-transform duration-500 group-hover:scale-105">
-            <JerseyMock {...palette} className="w-full h-full" />
+            <ProductMedia product={product} className="w-full h-full object-cover" />
           </div>
           {product.badge && (
             <span className="absolute top-3 left-3 bg-red-600 text-white text-[10px] font-black tracking-widest px-2 py-1 rounded">
