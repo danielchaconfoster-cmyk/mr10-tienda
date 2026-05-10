@@ -137,6 +137,7 @@ export const products: Product[] = [
     story:
       "Bajo la dirección del croata Mirko Jozić, Colo-Colo conquistó América venciendo a Olimpia de Paraguay en la final. Único equipo chileno en alzar la Libertadores. Una hazaña histórica con jugadores como Daniel Morón, Javier Margas, Lizardo Garrido, Jaime Pizarro y Marcelo Barticciotto.",
     image: "/products/colo-colo-1991.svg",
+    video: "/products/colo-colo-1991.mp4",
     category: "chile",
     badge: "TIER S",
   },
