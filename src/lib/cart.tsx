@@ -111,7 +111,7 @@ export function useCart() {
 export function buildWhatsAppMessage(items: CartItem[], total: number) {
   if (items.length === 0) return "Hola MR10, quiero hacer una consulta.";
   const lines = [
-    "¡Hola MR10! 👋",
+    "¡Hola MR10!",
     "Quiero hacer este pedido:",
     "",
     ...items.map(
